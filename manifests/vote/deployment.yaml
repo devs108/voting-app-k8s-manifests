@@ -16,8 +16,8 @@ spec:
         app: vote
     spec:
       containers:
-      - image: devcicdbasicregistry.azurecr.io/vote
-        name: vote
-        ports:
-        - containerPort: 80
+        - image: devcicdbasicregistry.azurecr.io/vote:6ed653201239224a45451d1a93a16d07ca2db1e1
           name: vote
+          ports:
+            - containerPort: 80
+              name: vote

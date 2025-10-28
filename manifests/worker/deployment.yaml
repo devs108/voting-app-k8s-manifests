@@ -15,5 +15,5 @@ spec:
         app: worker
     spec:
       containers:
-      - image: devcicdbasicregistry.azurecr.io/worker
-        name: worker
+        - image: devcicdbasicregistry.azurecr.io/worker:6ed653201239224a45451d1a93a16d07ca2db1e1
+          name: worker

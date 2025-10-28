@@ -15,8 +15,8 @@ spec:
         app: result
     spec:
       containers:
-      - image: devcicdbasicregistry.azurecr.io/result
-        name: result
-        ports:
-        - containerPort: 80
+        - image: devcicdbasicregistry.azurecr.io/result:6ed653201239224a45451d1a93a16d07ca2db1e1
           name: result
+          ports:
+            - containerPort: 80
+              name: result
